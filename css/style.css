@@ -1,0 +1,116 @@
+
+
+
+@font-face {
+	font-family: 'Muller Thin DEMO';
+	src:url('../fonts/MullerThinDEMO.woff');
+	src:local('Muller Thin DEMO') local('MullerThinDEMO'),
+	url('MullerThinDEMO.woff2') format('woff2'),
+	url('MullerThinDEMO.woff') format('woff');
+	font-weight: 100;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'Muller ExtraBold DEMO';
+	src: url('../fonts/MullerExtraBoldDEMO.woff');
+	src: local('Muller ExtraBold DEMO') local('MullerExtraBoldDEMO'),
+		url('MullerExtraBoldDEMO.woff2') format('woff2'),
+		url('MullerExtraBoldDEMO.woff')  format('woff');
+	font-weight: 800;
+	font-style: normal;
+}
+
+html {
+	box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+	box-sizing: inherit;
+}
+
+img {
+	max-width: 100%;
+}
+
+body {
+	font-family: 'Muller ExtraBold DEMO', sans-serif;
+	margin: 0;
+	padding: 20px 0;
+}
+p {
+	font-family: 'Muller Thin DEMO', sans-serif ;
+}
+.container {
+	width: 1170px;
+	margin: 0 auto;
+}
+.main-title {
+	margin-top: 20px;
+	margin-bottom: 40px;
+	font-size: 60px;
+	color: #3f2aff;
+}
+.text {
+	margin: 0;
+	margin-bottom: 30px;
+	max-width: 730px;
+	font-size: 20px;
+	line-height: 160%;
+	color: #333;
+}
+.quote-text {
+	max-width: 900px;
+	text-align: center;
+	background-color: #ebebee;
+	padding: 25px 120px;
+}
+.quote {
+	font-weight: bold;
+}
+.image-group {
+	margin: 0;
+	margin-bottom: 60px;
+}
+.image-group-text {
+	padding: 12px;
+	font-size: 20px;
+	text-align: center;
+	color: #fff;
+	background-color: #3f2aff;
+}
+.second-title {
+	margin: 0;
+	margin-bottom: 10px;
+	color: #333;
+	font-size: 40px;
+}
+.list {
+	margin: 20px 0;
+	padding-left: 40px;
+	font-size: 20px;
+	line-height: 48px;
+}
+.table {
+	width: 100%;
+	border-collapse: collapse;
+}
+
+.table-caption {
+	margin-bottom: 10px;
+	font-weight: bold;
+	text-align: left;
+	font-size: 20px;
+}
+
+.table-cell {
+	vertical-align: top;
+	font-size: 20px;
+	padding: 30px;
+	border: 1px solid rgba(0,0, 0, 0.3);
+}
+.table-header {
+	color: #3f2aff;
+}
